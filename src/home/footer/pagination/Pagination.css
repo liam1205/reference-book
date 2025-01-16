@@ -1,0 +1,23 @@
+.ant-pagination-item-link > .anticon > svg {
+    width: 1em;
+    height: 1em;
+    fill: white;
+    color: white;
+}
+
+.ant-pagination-item-link-icon > svg {
+    color: white;
+    fill: white;
+}
+
+.ant-pagination .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis, .ant-pagination .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    color: white;
+}
+
+.ant-pagination-item:hover {
+    background-color: rgba(30, 31, 32, 0.98);
+    > a {
+        color: white;
+        border-radius: 6px;
+    }
+}

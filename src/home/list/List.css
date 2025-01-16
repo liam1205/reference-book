@@ -1,0 +1,19 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 3rem);
+    padding: 1rem;
+
+    .header {
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        border-bottom: 1px solid white;
+    }
+
+    .list {
+        flex: 1;
+        overflow-y: auto;
+    }
+}

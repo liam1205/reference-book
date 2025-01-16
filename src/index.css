@@ -1,0 +1,56 @@
+:root {
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(30, 31, 32, 0.98);
+  font-family:  "Google Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+html, body, .root, .app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.entries, .header {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  >.filter:hover {
+    cursor: pointer;
+  }
+  > .entry, .filter{
+  padding-left: 1rem;
+  }
+  > .name {
+    width: 25%;
+  }
+  > .height {
+    width: 7.5%;
+  }
+  > .weight {
+    width: 7.5%;
+  }
+  > .planet {
+    width: 17.5%;
+  }
+  > .species {
+    width: 17.5%;
+  }
+  > .gender {
+    width: 10%;
+  }
+  > .eyes {
+    width: 10%;
+  }
+  > .favorite {
+    width: 5%;
+  }
+  > .fav {
+    display: flex;
+    justify-content: center;
+  }
+}
